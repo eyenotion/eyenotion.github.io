@@ -15,21 +15,15 @@ comments: false
 
 We first need to ensure the latest system updates are installed. They often include security updates so this is especial important.
 
-*I'll be using commands for an Ubuntu based system, so these commands will work on ant Debian based OS. If you're using something else you'll have to look up the relevant commands for your distro.*
+**I'll be using commands for an Ubuntu based system, so these commands will work on any Debian based OS. If you're using something else you'll have to look up the relevant commands for your distro.**
 
 
-
-First we'll update the repositories to check what updates are available.
-
-```bash
-apt update
-```
-
-Now we'll run the actual update process.
+All we need to do it run the 2 commands below, which checks for updates then applies them. The `apt update` first checks for availble updates, then `apt dist-upgrade` applies them and `-y` accepts any prompts to continue.
 
 ```bash
-apt dist-upgrade -y
+apt update && apt dist-upgrade -y
 ```
+> I'm running as `root` user. If you're not you'll need to start each command with `sudo`.
 
 Now the system is running the latest updates we'll move to the next step.
 
