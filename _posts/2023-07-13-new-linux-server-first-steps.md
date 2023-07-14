@@ -2,14 +2,12 @@
 title: First Steps For A New Linux Server Installation
 date: 2023-07-13 19:43:00 +0000
 categories: [Server, Linux]
-tags: [Ubuntu, Linux, Server, Debian]     # TAG names should always be lowercase
+tags: [ubuntu, linux, server, debian]     # TAG names should always be lowercase
 author: eyenotion
 toc: true
 comments: false
 
 ---
-
-# First Steps for a New Linux Server
 
 ## Ensuring latest updates are installed
 
