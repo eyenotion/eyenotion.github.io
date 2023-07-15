@@ -8,7 +8,7 @@ toc: true
 comments: false
 
 ---
-## Ensuring latest updates are installed
+## Ensuring The Latest Updates Are Installed
 
 We first need to ensure the latest system updates are installed. They often include security updates so this is especial important.
 

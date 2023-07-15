@@ -12,3 +12,5 @@ comments: false
 By default most people use their username and password to connect to their servers via SSH. While this works, it's not secure as passwords can be broken. 
 
 By generating an SSH key and using this to connect, it makes it not only more secure, but can save time as you no longer need to enter a password ever time you connect.
+
+To get started you'll need to have remote SSH access to the server you want to secure access to. Once you've got that we'll get started.
