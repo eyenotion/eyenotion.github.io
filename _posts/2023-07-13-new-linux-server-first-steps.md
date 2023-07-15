@@ -8,26 +8,16 @@ toc: true
 comments: false
 
 ---
-
-<<<<<<< HEAD
-## Ensuring Latest Updates Are Installed
-
-We first need to ensure the latest system updates are installed. They often include security updates so this is especial important.
-
-*I'll be using commands for an Ubuntu 22.04 based system, so these commands should work on any Debian based OS. If you're using something else you'll have to look up the relevant commands for your distro.*
-=======
 ## Ensuring latest updates are installed
 
 We first need to ensure the latest system updates are installed. They often include security updates so this is especial important.
 
 **I'll be using commands for an Ubuntu based system, so these commands will work on any Debian based OS. If you're using something else you'll have to look up the relevant commands for your distro.**
->>>>>>> 571da22b9670b9e342c5cf019c51ac0a142482e8
 
 
 All we need to do it run the 2 commands below, which checks for updates then applies them. The `apt update` first checks for availble updates, then `apt dist-upgrade` applies them and `-y` accepts any prompts to continue.
 
 ```bash
-<<<<<<< HEAD
 apt update
 ```
 
@@ -40,8 +30,6 @@ apt dist-upgrade -y
 =======
 apt update && apt dist-upgrade -y
 ```
-> I'm running as `root` user. If you're not you'll need to start each command with `sudo`.
->>>>>>> 571da22b9670b9e342c5cf019c51ac0a142482e8
 
 Now the system is running the latest updates we'll move to the next step.
 
