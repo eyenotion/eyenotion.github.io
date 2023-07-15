@@ -15,7 +15,9 @@ We first need to ensure the latest system updates are installed. They often incl
 **I'll be using commands for an Ubuntu based system, so these commands will work on any Debian based OS. If you're using something else you'll have to look up the relevant commands for your distro.**
 
 
-All we need to do it run the 2 commands below, which checks for updates then applies them. The `apt update` first checks for availble updates, then `apt dist-upgrade` applies them and `-y` accepts any prompts to continue.
+All we need to do is run the 2 commands below. The `apt update` first checks for availble updates, then `apt dist-upgrade` applies them and `-y` accepts any prompts to continue.
+
+> I'm running as `root` user. If you're not you'll need to start each command with `sudo`.
 
 ```bash
 apt update
@@ -27,7 +29,8 @@ Now we'll run the actual process of downloading and isntalling the availble upda
 apt dist-upgrade -y
 ```
 > Note you could also run the two commands together in a single prompt by putting `&&` between them like this; `apt update && apt dist-upgrade -y`
-=======
+
+```bash
 apt update && apt dist-upgrade -y
 ```
 
